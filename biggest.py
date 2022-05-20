@@ -7,7 +7,7 @@
 import random
 
 
-def Biggest_Number(list_of_numbers):
+def biggest_number(list_of_numbers):
     # This function finds the maximum value
     maximum = 0
     for loop_counter in range(len(list_of_numbers)):
@@ -28,7 +28,7 @@ def main():
         print("The random number is {}".format(single_number))
 
     # process & output
-    answer = Biggest_Number(random_number)
+    answer = biggest_number(random_number)
     print("\nThe largest number is {}".format(answer))
     print("\nDone.")
 
